@@ -2,5 +2,5 @@
 <paths>
     <!-- external-path:sd ；path:你的应用保存文件的根目录；name随便定义-->
     <!-- root-path 手机存储根目录 -->
-    <root-path path="honjane/" name="" />
+    <root-path path="" name="honjane" />
 </paths>
