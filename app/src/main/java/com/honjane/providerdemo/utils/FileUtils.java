@@ -99,8 +99,9 @@ public class FileUtils {
         intent.putExtra(MediaStore.EXTRA_OUTPUT, getUriForFile(activity, file));
         activity.startActivityForResult(intent, requestCode);
     }
-
-    private static Uri getUriForFile(Context context, File file) {
+    
+   
+    public static Uri getUriForFile(Context context, File file) {
         if (context == null || file == null) {
             throw new NullPointerException();
         }
