@@ -107,7 +107,7 @@ public class FileUtils {
         }
         Uri uri;
         if (Build.VERSION.SDK_INT >= 24) {
-            uri = FileProvider.getUriForFile(context.getApplicationContext(), "com.honjane.fileproviderdemo.fileprovider", file);
+            uri = FileProvider.getUriForFile(context.getApplicationContext(), "com.honjane.providerdemo.fileprovider", file);
         } else {
             uri = Uri.fromFile(file);
         }
