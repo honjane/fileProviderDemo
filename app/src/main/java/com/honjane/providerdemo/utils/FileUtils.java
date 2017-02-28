@@ -107,7 +107,7 @@ public class FileUtils {
         }
         Uri uri;
         if (Build.VERSION.SDK_INT >= 24) {
-            uri = FileProvider.getUriForFile(context.getApplicationContext(), "com.tuniu.app.ui.fileprovider", file);
+            uri = FileProvider.getUriForFile(context.getApplicationContext(), "com.honjane.fileproviderdemo.fileprovider", file);
         } else {
             uri = Uri.fromFile(file);
         }
